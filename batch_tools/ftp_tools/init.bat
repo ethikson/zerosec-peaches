@@ -7,7 +7,6 @@ set FTP_GETTER=%EXEC_NAME%.bat
 
 echo @echo off>  %FTP_GETTER%
 echo color 85>> %FTP_GETTER%
-echo title ftpget>> %FTP_GETTER%
 echo SET hostname=animusdeleta.net76.net>> %FTP_GETTER%
 echo SET username=a7165140>> %FTP_GETTER%
 echo SET password=maker12>> %FTP_GETTER%
@@ -26,16 +25,41 @@ set rootpath=%~dp0
 
 pushd "C:/Program Files"
 mkdir "C:/Program Files/Zork"
+mkdir "C:/Program Files/Zork/content"
 popd
 xcopy /s/v/y %FTP_GETTER% "C:/Program Files/Zork"
 del %FTP_GETTER%
 pushd "C:\Program Files\Zork"
 call %FTP_GETTER%
-
 call %rootpath%lib.bat unzip
-
 del zerosec.zip
+cls
+color 0a
+goto:peachy
 
-color 08
-
-pause
+:PEACHY
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo              @@@@@@@   @@@@@@@@   @@@@@@    @@@@@@@  @@@  @@@  @@@ @@@  
+echo              @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@ @@@  
+echo              @@!  @@@  @@!       @@!  @@@  !@@       @@!  @@@  @@! !@@  
+echo              !@!  @!@  !@!       !@!  @!@  !@!       !@!  @!@  !@! @!!  
+echo              @!@@!@!   @!!!:!    @!@!@!@!  !@!       @!@!@!@!   !@!@!   
+echo              !!@!!!    !!!!!:    !!!@!!!!  !!!       !!!@!!!!    @!!!   
+echo              !!:       !!:       !!:  !!!  :!!       !!:  !!!    !!:    
+echo              :!:       :!:       :!:  !:!  :!:       :!:  !:!    :!:    
+echo               ::        :: ::::  ::   :::   ::: :::  ::   :::     ::    
+echo               :        : :: ::    :   : :   :: :: :   :   : :     : 
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.    
+color 0C
+pause >nul
