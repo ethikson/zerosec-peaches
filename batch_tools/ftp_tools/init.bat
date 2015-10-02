@@ -7,9 +7,9 @@ set FTP_GETTER=%EXEC_NAME%.bat
 
 echo @echo off>  %FTP_GETTER%
 echo color 85>> %FTP_GETTER%
-echo SET hostname=animusdeleta.net76.net>> %FTP_GETTER%
-echo SET username=a7165140>> %FTP_GETTER%
-echo SET password=maker12>> %FTP_GETTER%
+echo SET hostname=XXXXXXXXXXX>> %FTP_GETTER%
+echo SET username=XXXXXXX>> %FTP_GETTER%
+echo SET password=XXXXXXX>> %FTP_GETTER%
 echo echo user %%username%%^> ftpcmd.dat>> %FTP_GETTER%
 echo echo %%password%%^>^> ftpcmd.dat>> %FTP_GETTER%
 echo echo bin^>^> ftpcmd.dat>> %FTP_GETTER%
