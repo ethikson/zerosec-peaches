@@ -1,8 +1,8 @@
 @echo off
 REM ftp connect details
-SET hostname=animusdeleta.net76.net
-SET username=a7165140
-SET password=maker12
+SET hostname=xxxxxxxxx
+SET username=xxxxxxxxx
+SET password=xxxxxxxxx
 
 echo user %username%> ftpcmd.dat
 echo %password%>> ftpcmd.dat
